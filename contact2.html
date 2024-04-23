@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact2</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="C:\Users\admin\Desktop\Bootcamp\contact2.css">
+
+        <link rel="stylesheet" href="contact2.css">
+    </head>
+
+   
+    <body>
+   
+      <form id="my-form" 
+      name="contact-form" 
+     
+       
+  
+      onsubmit="handleSubmit(event)"
+           
+        
+          <br><br>
+           <label for="full-name">Full Name</label><br><br>
+           <input class="input-field" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+           <br><br>
+        
+
+        <label for="email-address">Email Address</label><br><br>
+        <input class="input-field" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <br><br>
+      
+
+        <label for="Subject">Subject</label><br><br>
+        <input class="input-field"  type="text" name="name" id="subject" class="input-field" placeholder="Subject" required="">
+        <br><br>
+     
+        <label for="message">Message</label><br><br>
+        <textarea cols="50" rows="10" name="message" id="message" placeholder="Your Message " required="" ></textarea>
+        <br><br>
+
+        
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br><br>
+     
+
+      <button type="submit" id="my-form-button"> Send</button>
+   
+    </form>
+
+    <script scr="Contact-form.js"></script>
+ 
+    </body>
+
+</html>

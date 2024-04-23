@@ -1,0 +1,43 @@
+* { margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.input-field, textarea { width: 50%; 
+    
+    margin-left: 50%;
+    padding: 18px; 
+    background-color: white; 
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px; 
+    font-size: 16px;
+    margin-left : 300px;
+    
+    }
+
+    textarea {resize: none;}
+
+    label, .contact { 
+        font-weight: bold; 
+        margin-left: 300px; }
+
+    .contact { 
+        font-weight: bold; 
+        margin-left: 500px; 
+        margin-bottom: 50px; 
+        font-size: 50px;}
+
+    
+    button {
+        width: 200px; 
+        height: 50px; 
+        margin-left: 500px; 
+        font-size: 20px; 
+        border-radius: 6px; }
+
+  .required-email, .required-message { display: none;}
+
+
+
+

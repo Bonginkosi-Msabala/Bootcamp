@@ -1,0 +1,90 @@
+* { text-decoration: none;
+    padding: none;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    }
+
+body { background-color:lightgray; }
+
+.navbar {background-color: lightseagreen;}
+
+.container1 {display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;;
+    margin-bottom: 50px;
+    
+   }
+.Logo { font-size: 35px;
+        font-weight: bold;
+        padding: 0 100px;
+        line-height: 80px;
+        }
+
+.unorderedlist{list-style: none; 
+    display: flex; 
+    gap: 30px; 
+    margin-right: 50px; 
+    font-size: 18px;}
+
+.listlink { text-decoration: none; color: white; padding: 20px; display:block}
+
+.unorderedlist li a:hover {background-color:lightblue; font-weight: bolder;}
+
+.computerpic {height: 500px; width: 1020px; margin-top: 50px ; margin-left: 150px; border-radius: 50px;}
+
+.Mypic {height: 250px; 
+    width: 200px; 
+    border-radius:  200px; 
+    padding: 50px ; 
+    margin-left: 80px;}
+
+.nav-bottom {list-style: none; 
+    justify-content: center;
+    gap: 30px; 
+    display: flex;  
+    margin-top: 50px;
+    vertical-align: top;}
+
+.social {font-size: 40px; line-height: 100px}
+
+
+.About-me { font-family: Arial, Helvetica, sans-serif;}
+
+.About { margin-left: 25px;  
+    justify-content: center; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap:50px}
+
+
+.Contactinfo {display:flex ; margin-left: 50px; }
+
+footer {background-color: lightseagreen; height: 180px; margin-top: 100px;}
+
+.footer1 {height:150px; ; margin-top: 100px;}
+
+
+.Map2 {display:flex ; justify-content: end; width:50%;}
+
+
+.afrika_tikkun_logo { height: 100px; width: 250px}
+
+
+
+@media (max-width:400px) {
+
+.Logo {display: flex; font-size: 20px;}
+
+.social {display:flex;}
+
+.computerpic { margin-left:25px; height:300px; width:300px}
+
+.Bio-info { display: block; width:100%}
+
+h1 {display: block;}
+
+h1 {font-size: 20px;}
+
+.Mypic{ display:none;}
+}
