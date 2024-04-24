@@ -1,10 +1,12 @@
-* { text-decoration: none;
+* { box-sizing: border-box;
+    text-decoration: none;
     padding: none;
     margin: none;
     font-family: Arial, Helvetica, sans-serif ;
     }
 
-body { background-color:lightgray; }
+body { background-color:lightgray;
+       padding: 0; margin: 0}
 
 .navbar {background-color: lightseagreen;}
 
@@ -33,14 +35,14 @@ body { background-color:lightgray; }
 
 .computerpic {height: 500px; width: 1020px; margin-top: 50px ; margin-left: 150px; border-radius: 50px;}
 
-.Mypic {height: 250px; 
-    width: 200px; 
+.Mypic {height: 360px; 
+    width: 360px; 
     border-radius:  200px; 
     padding: 50px ; 
     margin-left: 80px;}
 
 .nav-bottom {list-style: none; 
-    justify-content: center;
+    justify-content: center ;
     gap: 30px; 
     display: flex;  
     margin-top: 50px;
@@ -51,24 +53,26 @@ body { background-color:lightgray; }
 
 .About-me { font-family: Arial, Helvetica, sans-serif;}
 
-.About { margin-left: 25px;  
-    justify-content: center; 
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-    gap:50px}
+.about-me-heading {font-weight: bold;   font-weight: bold; 
+   
+    margin-bottom: 50px; 
+    font-size: 50px;
+    }
+
+.About { margin-left: 30%; gap:50px; ;}
 
 
 .Contactinfo {display:flex ; margin-left: 50px; }
 
-footer {background-color: lightseagreen; height: 180px; margin-top: 100px;}
+footer {background-color: lightseagreen; height: 160px; margin-top: 100px;}
 
-.footer1 {height:150px; ; margin-top: 100px;}
-
-
-.Map2 {display:flex ; justify-content: end; width:50%;}
+.footer1 {height:180px; ; margin-top: 100px;}
 
 
-.afrika_tikkun_logo { height: 100px; width: 250px}
+.Map {display:flex ; margin-left: 250px; ;}
+
+
+.afrika_tikkun_logo { height: 20px; width: 20px}
 
 
 
