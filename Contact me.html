@@ -46,7 +46,7 @@
         
         <form id="my-form" action="https://formspree.io/f/mrgnrkzz" method="POST">
            
-        
+      
           <br><br>
            <label for="full-name">Full Name</label><br><br>
            <input class="input-field" type="text" name="name" id="full-name" placeholder="First and Last" required="type Full name">
@@ -55,8 +55,8 @@
         
 
         <label for="email-address">Email Address</label><br><br>
-        <input class="input-field" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="type email">
-        <br><br><span class="required-email"  id="emailrequest">invalid email</span>
+        <input class="input-field" type="email" name="email" id="email" placeholder="email@domain.tld" required="type email">
+        <br><br> <span class="hidden none email html-element" id="email-span">Invalid Email</span>
         <br><br>
       
 
@@ -66,7 +66,7 @@
      
         <label for="message">Message</label><br><br>
         <textarea cols="50" rows="10" name="message" id="message" placeholder="Your Message " required="type message" ></textarea>
-        <br><br><span class="required-message"  id="messagerequest">invalid message</span>
+        <br><br><span class="hidden" id="message-span">Invalid Messsage</span>
         <br><br>
 
         
@@ -76,6 +76,10 @@
       <button type="submit" id="my-form-button"> Send</button>
     
       <p id="my-form-status"></p>
+
+    </form>   
+</div>
+
    
     </form>
   </div>
