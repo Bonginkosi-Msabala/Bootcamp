@@ -1,0 +1,20 @@
+.About-me { font-family: Arial, Helvetica, sans-serif;}
+
+.about-me-heading {font-weight: bold; 
+                     margin-left: 250px;
+                    margin-bottom: 50px; 
+                     font-size: 50px; }
+
+.About { margin-left: 20%; gap:50px; ;}
+
+table {
+    font-family: arial, sans-serif;
+   
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
